@@ -1,0 +1,13 @@
+{
+    "name": "prontotype/composer-installer",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {"Prontotype\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "Prontotype\\Composer\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    }
+}
