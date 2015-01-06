@@ -7,7 +7,7 @@ class Installer extends LibraryInstaller
 {
     public function getPackageBasePath(PackageInterface $package)
     {
-        return 'vendor/prontotype/plugins/' . $package->getPrettyName();
+        return $this->vendorDir . '/prontotype/plugins/' . $package->getPrettyName();
     }
 
     public function supports($packageType)

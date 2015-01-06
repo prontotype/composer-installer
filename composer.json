@@ -2,7 +2,7 @@
     "name": "prontotype/composer-installer",
     "type": "composer-plugin",
     "autoload": {
-        "psr-4": {"Prontotype\\Composer\\": "/Composer"}
+        "psr-4": {"Prontotype\\Composer\\": "/"}
     },
     "extra": {
         "class": "Prontotype\\Composer\\Plugin"
